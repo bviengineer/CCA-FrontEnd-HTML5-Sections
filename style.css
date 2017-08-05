@@ -3,48 +3,134 @@ body {
 }
 
 header {
-    background-color: firebrick;
-    height: 50px;
+    background-color: lightseagreen;
+    height: 590px;
+    margin-top: -70px;
+    margin-left: -10px;
+    margin-right: -10px;  
 }
 
 ul {
-    padding-right: 50px;
-    margin-top: 50px;
-    text-align: right;
+    margin-top: 60px;
+    text-align: center;
     text-decoration: none;
 }
 
 ul li {
     display: inline-block;
-    padding-top: 15px;
-    padding-right: 6px;
-    font-size: 18px;
+    padding-top: 35px;
+    padding-right: 50px;
+    font-size: 25px;
     color: white;   
 }
 
-section, aside {
-    padding-left: 20px;
-    padding-right: 20px; 
+br a:link, a:visited {
+    color:yellow;
+    font-weight: bold;
 }
 
-footer {
-    background-color: firebrick;
-    color: white;
-    height: 20px;
-    text-align: center;
-    font-size: 20px;
-    margin-top: 70px;
-}
-
-a:active, a:link {
+a:link, a:visited {
     color: white;
     text-decoration: none; 
 }
 
-a:hover, a:visited {
-    color: chartreuse;
+a:hover, a:active {
+    color: yellow;
+    text-decoration: none; 
 }
 
-a:visited {
+#home-header {
+    color: yellow;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+#down-arrow {
+    padding-top: 145px;
+    margin-left: 600px;
+    width: 100px;   
+    height: 100px;
+}
+
+section {
+    background-color:snow;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px; 
+    margin-top: -10px;
+    font-size: 27px;
+    color: yellowgreen;
+}
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+#categories {
+    margin: 0px;
+}
+
+#categories li {
+   
+    display: block;
+    line-height: 100%;
+    color: yellowgreen;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.float-article {
+    float: left;
+    width: 300px;
+    height: 715px;
+    margin-top: 0px;
+    margin-left: -15px;
+    padding: 0px 33px 0px 10px;
+    background-color: lightseagreen;
     color: white;
+    font-size: 20px;
+}
+
+h3 {
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+}
+
+aside {
+    clear: both;
+    padding-top: 30px;
+    text-align: center;
+    color: yellowgreen;
+    background-color: snow;
+    font-size: 20px;
+}
+
+#aside-h1 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+footer {
+    background-color: lightseagreen;
+    color: yellow;
+    font-weight: bold;
+    height: 20px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 70px;
+    clear: both;
+}
+
+#kids-coding {
+    margin-left: 10px;      
+    width: 200px;
+    
+
 }
