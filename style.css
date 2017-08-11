@@ -1,27 +1,37 @@
+/****************************
+  BODY & NAVIGATION 
+*****************************/
+
 body {
     background-color: white;
 }
 
 header {
     background-color: lightseagreen;
-    height: 590px;
-    margin-top: -70px;
+    /* height: 80%; */
+    /* margin-top: -70px;
     margin-left: -10px;
-    margin-right: -10px;  
-}
+    margin-right: -10px;  */
+} 
 
-ul {
-    margin-top: 60px;
+nav ul {
+    /* margin-top: 60px; */
     text-align: center;
     text-decoration: none;
+    list-style-type: none;
+    padding: 5px 0 5px 0;
+    margin: auto;
 }
 
-ul li {
-    display: inline-block;
-    padding-top: 35px;
-    padding-right: 50px;
-    font-size: 25px;
-    color: white;   
+nav ul li {
+    /* display: inline-block; */
+    /* padding-top: 35%; */
+    padding: 1%;
+    margin: 0 20% 1% 20%;
+    font-size: 1.22rem;
+    color: white; 
+    background-color: darkslategrey;
+    border-width: unset;  
 }
 
 br a:link, a:visited {
@@ -39,29 +49,45 @@ a:hover, a:active {
     text-decoration: none; 
 }
 
-#home-header {
+
+/****************************
+  IMAGES
+*****************************/
+#down-arrow {
+    padding-left: 45%;
+    /* margin-left: 600px; */
+    width: auto;
+    height: 40%;
+    background-color: yellowgreen;
+}
+
+#arrow-img {
+    height: 15%;
+    width: 15%;
+}
+
+
+/************************************
+  SEMANTIC ELEMENTS & DOCUMENT LNKS
+************************************/
+/* #home-header {
     color: yellow;
     font-size: 80px;
     text-align: center;
     padding-top: 70px;
-}
+} */
 
-#down-arrow {
-    padding-top: 145px;
-    margin-left: 600px;
-    width: 100px;   
-    height: 100px;
-}
-
-section {
+main {
     background-color:snow;
-    padding-left: 20px;
+    text-align: center;
+    /* padding-left: 20px;
     padding-right: 20px;
     padding-top: 10px; 
-    margin-top: -10px;
-    font-size: 27px;
-    color: yellowgreen;
-}
+    margin-top: -10px; */
+    padding: 0 1% 0 1%;
+    font-size: 1.27rem;
+    color: slategrey;
+} 
 
 h2 {
     text-align: center;
