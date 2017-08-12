@@ -42,10 +42,12 @@ nav ul li a:active {
 
 footer {
     background-color: lightseagreen;
+    height: 2rem;
     color: yellowgreen;
     font-weight: bold;
     text-align: center;
-    font-size: 0.75rem;
+    padding-top: 1rem;
+    font-size: 1.2rem;
 }
 
 
@@ -137,7 +139,7 @@ aside {
         font-size: 1.5rem;
     }
 
-    aside {
+    aside, footer {
         display: none;
     }
 }
