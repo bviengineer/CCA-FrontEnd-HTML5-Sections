@@ -34,7 +34,6 @@ nav ul li a:visited {
     text-decoration: none; 
 }
 
-
 nav ul li a:hover, 
 nav ul li a:active {
     color: yellow;
@@ -92,15 +91,6 @@ main {
     color: slategrey;
 } 
 
-.section-floats {
-    width: 100%;
-}
-
-.section-floats2 {
-    width: 100%;
-    margin-top: 8rem;
-}
-
 main section ul li{
     list-style-type: none;
     color: darkorange;
@@ -156,7 +146,7 @@ aside {
 @media (min-width: 880px) {    
     article {
         width: 35%;
-        height: 50%;
+        height: auto;
         padding: 1%;
         border: 5px solid yellowgreen;
         border-radius: 8%;
