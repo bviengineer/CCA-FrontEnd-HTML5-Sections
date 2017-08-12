@@ -43,9 +43,8 @@ footer {
     background-color: lightseagreen;
     color: yellowgreen;
     font-weight: bold;
-    /* height: 10%; */
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 0.75rem;
 }
 
 
@@ -54,7 +53,6 @@ footer {
 *****************************/
 #down-arrow {
     padding-left: 45%;
-    /* margin-left: 600px; */
     width: auto;
     height: 40%;
     background-color: yellowgreen;
@@ -98,7 +96,7 @@ main section ul li{
     font-weight: bold;
 }
 
-p br {
+p a {
     font-weight: bold;
     padding: 1%;
 }
@@ -112,23 +110,73 @@ a:hover, a:active {
     color: darkslategrey;
 }
 
+
 /************************************
     ASIDE
 *************************************/
 aside {
     clear: both;
-    /* padding-top: 30px; */
     text-align: center;
-    color: yellowgreen;
+    color: darkslategrey;
     background-color: snow;
     font-size: 1rem;
 }
 
-#kids-coding {
-    margin-left: 5%;      
-    width: 5%;
-}
 
 /************************************
   MEDIA QUERIES
 ************************************/
+@media (max-width: 360px){
+    main {
+        width: 100%; 
+        font-size: 1.4rem;
+    }    
+
+    h1, h2 {
+        font-size: 1.5rem;
+    }
+
+    aside {
+        display: none;
+    }
+}
+
+
+@media (min-width: 880px) {
+    article {
+        width: 15%;
+        padding: 1%;
+        border: 5px solid yellowgreen;
+        border-radius: 5%;
+        margin: 5% 1% 0% 2%;
+        float: left;
+        font-size: 1.2rem;
+    }
+    
+    nav ul li {
+        display: inline-block;
+        text-align: right;
+        text-decoration: none;
+        list-style-type: none;
+        padding: 5px 10px;
+        margin: auto;
+    }
+    
+    aside {
+        float: right;
+        width: 15%;
+        margin-top: -35%;
+        background-color: lightgrey;
+        clear: both;
+        font-size: 1rem;
+    }
+
+    footer {
+        clear: both;
+        /* display: none; */
+        margin-top: 500px;
+    }
+}
+    
+
+    
